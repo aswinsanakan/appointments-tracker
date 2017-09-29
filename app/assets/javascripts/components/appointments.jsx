@@ -2,8 +2,8 @@ var Appointments = React.createClass({
 	getInitialState: function() {
 		return {
 			appointments: this.props.appointments,
-			title: 'Random Meeting at Neverland',
-			appt_time: 'Tomorrow at 9am'
+			title: '',
+			appt_time: ''
 		}
 	},
 
@@ -31,7 +31,7 @@ var Appointments = React.createClass({
 
 	render: function() {
 		return (
-			<div>
+			<div className='appointments'>
 				<AppointmentForm 
 					title={this.state.title}
 					appt_time={this.state.appt_time}

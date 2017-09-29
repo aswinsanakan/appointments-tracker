@@ -28,7 +28,7 @@ var AppointmentForm = React.createClass ({
 			<div>
 				<h2>Make a new Appointment</h2>
 				<form onSubmit={this.handleSubmit}>
-					<input name="title" placeholder="Add an appointment!" 
+					<input name="title" placeholder="What are you upto?" 
 						value={this.props.title}
 						onChange={this.handleChange}
 					 />

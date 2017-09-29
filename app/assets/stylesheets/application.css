@@ -13,3 +13,18 @@
  *= require_tree .
  *= require_self
  */
+
+
+.logo {
+	margin: 0 auto;
+    text-align: center;
+}
+
+.logo .sub-logo {
+	color: #C84630;
+	text-decoration: underline;
+}
+
+.logo .react-logo {
+	color: #065143;
+}
